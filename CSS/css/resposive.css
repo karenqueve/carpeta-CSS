@@ -1,0 +1,33 @@
+* body {
+    margin: 0;
+    padding: 0;
+}
+
+.barra1 {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    width: 50px;
+    height: 20vh;
+    background-color: palevioletred;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.item {
+    display: flex;
+    background-color: bisque;
+    width: 30px;
+    height: 30px;
+}
+
+.item1 {
+    justify-self: right;
+}
+
+.barra2 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(3, 0, 0);
+    color: aqua;
+}
